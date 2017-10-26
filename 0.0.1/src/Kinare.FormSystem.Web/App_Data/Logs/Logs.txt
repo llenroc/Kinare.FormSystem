@@ -1,0 +1,293 @@
+DEBUG 2017-10-26 10:55:52,808 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-10-26 10:55:52,819 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-10-26 10:55:52,824 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Kinare.FormSystem.Web.FormSystemWebModule, Kinare.FormSystem.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 10:55:52,825 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Kinare.FormSystem.FormSystemDataModule, Kinare.FormSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 10:55:52,825 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 10:55:52,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 10:55:52,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 10:55:52,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 10:55:52,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 10:55:52,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 10:55:52,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Kinare.FormSystem.FormSystemCoreModule, Kinare.FormSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 10:55:52,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Kinare.FormSystem.FormSystemApplicationModule, Kinare.FormSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 10:55:52,827 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 10:55:52,827 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Kinare.FormSystem.Api.FormSystemWebApiModule, Kinare.FormSystem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 10:55:52,827 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 10:55:52,827 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 10:55:52,827 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 10:55:52,827 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 10:55:52,827 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 10:55:52,830 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-10-26 10:55:53,168 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-10-26 10:55:53,168 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-10-26 10:55:53,168 [1    ] o.Configuration.LanguageManagementConfig - Converted FormSystem (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-10-26 10:55:53,168 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-10-26 10:55:53,445 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Kinare.FormSystem.EntityFramework.FormSystemDbContext, Kinare.FormSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 10:55:55,872 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-10-26 10:55:55,909 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-10-26 10:55:55,915 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-10-26 10:55:55,918 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FormSystem
+DEBUG 2017-10-26 10:55:55,930 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-10-26 10:55:55,987 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-10-26 10:55:56,035 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2017-10-26 10:55:56,035 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Kinare.FormSystem.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-10-26 10:55:56,038 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Kinare.FormSystem.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-10-26 10:55:56,038 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Kinare.FormSystem.Users.Dto.CreateUserDto
+DEBUG 2017-10-26 10:55:56,038 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Kinare.FormSystem.Users.Dto.UpdateUserDto
+DEBUG 2017-10-26 10:55:56,038 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Kinare.FormSystem.Users.Dto.UserDto
+DEBUG 2017-10-26 10:55:56,038 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Kinare.FormSystem.Roles.Dto.CreateRoleDto
+DEBUG 2017-10-26 10:55:56,038 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Kinare.FormSystem.Roles.Dto.PermissionDto
+DEBUG 2017-10-26 10:55:56,038 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Kinare.FormSystem.Roles.Dto.RoleDto
+DEBUG 2017-10-26 10:55:56,038 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Kinare.FormSystem.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-10-26 10:55:56,038 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Kinare.FormSystem.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-10-26 10:55:56,038 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Kinare.FormSystem.MultiTenancy.Dto.TenantDto
+DEBUG 2017-10-26 10:55:56,038 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Kinare.FormSystem.Web.Models.Account.TenantChangeViewModel
+DEBUG 2017-10-26 10:55:56,038 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Kinare.FormSystem.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-10-26 10:55:57,116 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Kinare.FormSystem.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-10-26 10:55:57,117 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Kinare.FormSystem.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-10-26 10:55:57,117 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Kinare.FormSystem.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-10-26 10:55:57,118 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Kinare.FormSystem.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-10-26 10:55:57,119 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Kinare.FormSystem.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-10-26 10:55:57,119 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Kinare.FormSystem.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2017-10-26 10:56:01,189 [9    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2017-10-26 10:56:14,294 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a410bf79-81fc-4b7a-b461-d22780216825","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-10-26T10:56:14.2899467-05:00","Properties":{}}
+DEBUG 2017-10-26 10:56:14,319 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a410bf79-81fc-4b7a-b461-d22780216825
+WARN  2017-10-26 10:56:23,334 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'Refresh' in localization source 'FormSystem'!
+DEBUG 2017-10-26 10:56:33,957 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a410bf79-81fc-4b7a-b461-d22780216825
+DEBUG 2017-10-26 10:56:34,270 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a95620c4-e66f-467b-9349-21a50c6ad393","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-10-26T10:56:34.2700493-05:00","Properties":{}}
+DEBUG 2017-10-26 10:56:34,276 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a95620c4-e66f-467b-9349-21a50c6ad393
+DEBUG 2017-10-26 10:56:42,005 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a95620c4-e66f-467b-9349-21a50c6ad393
+DEBUG 2017-10-26 10:56:42,362 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"def37ef8-c6e9-4570-a0d9-149182900319","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-10-26T10:56:42.3625694-05:00","Properties":{}}
+DEBUG 2017-10-26 10:56:42,369 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: def37ef8-c6e9-4570-a0d9-149182900319
+DEBUG 2017-10-26 10:57:30,279 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: def37ef8-c6e9-4570-a0d9-149182900319
+DEBUG 2017-10-26 10:57:30,982 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"1a48e8e5-8809-4c1b-99be-ce04e2dfc61d","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-10-26T10:57:30.9828028-05:00","Properties":{}}
+DEBUG 2017-10-26 10:57:30,990 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 1a48e8e5-8809-4c1b-99be-ce04e2dfc61d
+DEBUG 2017-10-26 10:58:11,011 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 1a48e8e5-8809-4c1b-99be-ce04e2dfc61d
+DEBUG 2017-10-26 10:58:11,446 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"27cccf94-b1e6-428f-9ddb-12d22fae5faf","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-10-26T10:58:11.4468756-05:00","Properties":{}}
+DEBUG 2017-10-26 10:58:11,450 [41   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 27cccf94-b1e6-428f-9ddb-12d22fae5faf
+DEBUG 2017-10-26 10:59:14,638 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 27cccf94-b1e6-428f-9ddb-12d22fae5faf
+DEBUG 2017-10-26 10:59:15,336 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8fc2bf0d-1e63-49e1-85cf-0e005d12df72","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-10-26T10:59:15.3362123-05:00","Properties":{}}
+DEBUG 2017-10-26 10:59:15,341 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8fc2bf0d-1e63-49e1-85cf-0e005d12df72
+DEBUG 2017-10-26 11:00:43,773 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 8fc2bf0d-1e63-49e1-85cf-0e005d12df72
+DEBUG 2017-10-26 11:00:44,273 [57   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"60633c32-8aff-45db-8b6a-04e1706e5d32","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-10-26T11:00:44.2736264-05:00","Properties":{}}
+DEBUG 2017-10-26 11:00:44,321 [47   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 60633c32-8aff-45db-8b6a-04e1706e5d32
+WARN  2017-10-26 11:01:00,052 [64   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2017-10-26 11:01:06,900 [63   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b905e7ea-b902-4e47-b922-0bd218d4ecba","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-10-26T11:01:06.8997739-05:00","Properties":{}}
+DEBUG 2017-10-26 11:01:06,957 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b905e7ea-b902-4e47-b922-0bd218d4ecba
+DEBUG 2017-10-26 11:01:34,493 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 60633c32-8aff-45db-8b6a-04e1706e5d32
+DEBUG 2017-10-26 11:01:45,934 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b905e7ea-b902-4e47-b922-0bd218d4ecba
+DEBUG 2017-10-26 11:01:46,515 [57   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"1e861883-0830-41b3-b407-cd162204d9fb","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-10-26T11:01:46.515085-05:00","Properties":{}}
+DEBUG 2017-10-26 11:01:46,519 [58   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 1e861883-0830-41b3-b407-cd162204d9fb
+WARN  2017-10-26 11:01:58,927 [58   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2017-10-26 11:02:04,372 [57   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"51cb001c-0e3a-4b53-896e-cbad0cab7331","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-10-26T11:02:04.3725555-05:00","Properties":{}}
+DEBUG 2017-10-26 11:02:04,378 [45   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 51cb001c-0e3a-4b53-896e-cbad0cab7331
+DEBUG 2017-10-26 11:02:29,528 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 1e861883-0830-41b3-b407-cd162204d9fb
+DEBUG 2017-10-26 11:09:42,414 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-10-26 11:09:42,725 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-10-26 11:09:42,730 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Kinare.FormSystem.Web.FormSystemWebModule, Kinare.FormSystem.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 11:09:42,732 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Kinare.FormSystem.FormSystemDataModule, Kinare.FormSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 11:09:42,732 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 11:09:42,732 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 11:09:42,732 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 11:09:42,732 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 11:09:42,733 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 11:09:42,733 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 11:09:42,733 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Kinare.FormSystem.FormSystemCoreModule, Kinare.FormSystem.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 11:09:42,733 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Kinare.FormSystem.FormSystemApplicationModule, Kinare.FormSystem.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 11:09:42,733 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 11:09:42,733 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Kinare.FormSystem.Api.FormSystemWebApiModule, Kinare.FormSystem.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 11:09:42,733 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 11:09:42,734 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 11:09:42,734 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 11:09:42,734 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 11:09:42,734 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 11:09:42,736 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-10-26 11:09:43,362 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-10-26 11:09:43,363 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-10-26 11:09:43,363 [1    ] o.Configuration.LanguageManagementConfig - Converted FormSystem (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-10-26 11:09:43,363 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-10-26 11:09:43,643 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Kinare.FormSystem.EntityFramework.FormSystemDbContext, Kinare.FormSystem.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-26 11:09:44,316 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-10-26 11:09:44,336 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-10-26 11:09:44,340 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-10-26 11:09:44,349 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: FormSystem
+DEBUG 2017-10-26 11:09:44,350 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-10-26 11:09:44,404 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-10-26 11:09:44,447 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2017-10-26 11:09:44,447 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Kinare.FormSystem.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-10-26 11:09:44,449 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Kinare.FormSystem.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-10-26 11:09:44,449 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Kinare.FormSystem.Users.Dto.CreateUserDto
+DEBUG 2017-10-26 11:09:44,450 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Kinare.FormSystem.Users.Dto.UpdateUserDto
+DEBUG 2017-10-26 11:09:44,450 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Kinare.FormSystem.Users.Dto.UserDto
+DEBUG 2017-10-26 11:09:44,450 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Kinare.FormSystem.Roles.Dto.CreateRoleDto
+DEBUG 2017-10-26 11:09:44,450 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Kinare.FormSystem.Roles.Dto.PermissionDto
+DEBUG 2017-10-26 11:09:44,450 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Kinare.FormSystem.Roles.Dto.RoleDto
+DEBUG 2017-10-26 11:09:44,450 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Kinare.FormSystem.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-10-26 11:09:44,450 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Kinare.FormSystem.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-10-26 11:09:44,450 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Kinare.FormSystem.MultiTenancy.Dto.TenantDto
+DEBUG 2017-10-26 11:09:44,450 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Kinare.FormSystem.Web.Models.Account.TenantChangeViewModel
+DEBUG 2017-10-26 11:09:44,450 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Kinare.FormSystem.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-10-26 11:09:45,577 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Kinare.FormSystem.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-10-26 11:09:45,578 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Kinare.FormSystem.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-10-26 11:09:45,578 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Kinare.FormSystem.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-10-26 11:09:45,579 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Kinare.FormSystem.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-10-26 11:09:45,580 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Kinare.FormSystem.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-10-26 11:09:45,580 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Kinare.FormSystem.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2017-10-26 11:09:55,869 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"5579f196-6e0e-408f-88d3-3b483b1c48c4","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-10-26T11:09:55.8648324-05:00","Properties":{}}
+DEBUG 2017-10-26 11:09:55,895 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 5579f196-6e0e-408f-88d3-3b483b1c48c4
+DEBUG 2017-10-26 11:10:19,153 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 5579f196-6e0e-408f-88d3-3b483b1c48c4
+DEBUG 2017-10-26 11:10:19,605 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9201441a-3827-4d7b-ad05-4cfd761d562c","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-10-26T11:10:19.6059474-05:00","Properties":{}}
+DEBUG 2017-10-26 11:10:19,610 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 9201441a-3827-4d7b-ad05-4cfd761d562c
+DEBUG 2017-10-26 11:11:19,235 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b9ade3ca-f197-41d9-b9b1-24cfc3e56da8","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-10-26T11:11:19.2359413-05:00","Properties":{}}
+DEBUG 2017-10-26 11:11:19,240 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b9ade3ca-f197-41d9-b9b1-24cfc3e56da8
+DEBUG 2017-10-26 11:11:50,823 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 9201441a-3827-4d7b-ad05-4cfd761d562c
+DEBUG 2017-10-26 11:12:14,327 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b9ade3ca-f197-41d9-b9b1-24cfc3e56da8
+DEBUG 2017-10-26 11:12:14,899 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ba0c9328-1367-40b0-8227-9a28c533bcfd","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-10-26T11:12:14.8998995-05:00","Properties":{}}
+DEBUG 2017-10-26 11:12:14,907 [32   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ba0c9328-1367-40b0-8227-9a28c533bcfd
+DEBUG 2017-10-26 11:13:29,457 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: ba0c9328-1367-40b0-8227-9a28c533bcfd
+DEBUG 2017-10-26 11:13:44,723 [35   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"76ac6442-3cbf-4cb5-87f2-39aa916e9caf","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-10-26T11:13:44.723167-05:00","Properties":{}}
+DEBUG 2017-10-26 11:13:44,748 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 76ac6442-3cbf-4cb5-87f2-39aa916e9caf
+DEBUG 2017-10-26 11:14:27,051 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 76ac6442-3cbf-4cb5-87f2-39aa916e9caf
+DEBUG 2017-10-26 11:14:30,000 [35   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b9977e46-8d21-44cd-8d14-95c35cda7af7","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-10-26T11:14:30.000011-05:00","Properties":{}}
+DEBUG 2017-10-26 11:14:30,006 [47   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b9977e46-8d21-44cd-8d14-95c35cda7af7

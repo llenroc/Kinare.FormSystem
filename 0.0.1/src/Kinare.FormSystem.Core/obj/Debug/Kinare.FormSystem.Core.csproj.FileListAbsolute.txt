@@ -163,3 +163,4 @@ D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\bi
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\obj\Debug\Kinare.FormSystem.Core.csproj.CoreCompileInputs.cache
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\obj\Debug\Kinare.FormSystem.Core.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\obj\Debug\Kinare.FormSystem.Core.pdb
+D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\obj\Debug\Kinare.FormSystem.Core.csprojResolveAssemblyReference.cache
