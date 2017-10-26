@@ -184,3 +184,5 @@ D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.EntityF
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.EntityFramework\obj\Debug\Kinare.FormSystem.EntityFramework.csproj.CoreCompileInputs.cache
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.EntityFramework\obj\Debug\Kinare.FormSystem.EntityFramework.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.EntityFramework\obj\Debug\Kinare.FormSystem.EntityFramework.pdb
+D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.EntityFramework\obj\Debug\Kinare.FormSystem.Migrations._CreateInitialModel.resources
+D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.EntityFramework\obj\Debug\Kinare.FormSystem.Migrations.ApplicationFormRequest_AddProgressField.resources
