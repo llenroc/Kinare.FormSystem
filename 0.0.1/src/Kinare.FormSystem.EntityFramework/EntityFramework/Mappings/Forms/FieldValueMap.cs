@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace Kinare.FormSystem.EntityFramework.Mappings.Forms
 {
-    class FieldValueMap : EntityTypeConfiguration<FieldValue>
+    public class FieldValueMap : EntityTypeConfiguration<FieldValue>
     {
         const string tableName = "FieldValue";
 
-        public FieldValueMap() 
+        public FieldValueMap()
         {
             this.ToTable(tableName);
         }
