@@ -108,7 +108,7 @@ $.AdminBSB.leftSideBar = {
         Waves.init();
     },
     setMenuHeight: function (isFirstTime) {
-        if (typeof $.fn.slimScroll != 'undefined') {
+        if (typeof $.fn.slimScroll !== 'undefined') {
             var configs = $.AdminBSB.options.leftSideBar;
             var height = ($(window).height() - ($('.legal').outerHeight() + $('.user-info').outerHeight() + $('.navbar').innerHeight()));
             var $el = $('.list');
@@ -213,7 +213,7 @@ $.AdminBSB.search = {
 
         //ESC key on pressed
         $searchBar.find('input[type="text"]').on('keyup', function (e) {
-            if (e.keyCode == 27) {
+            if (e.keyCode === 27) {
                 _this.hideSearchBar();
             }
         });
@@ -276,7 +276,7 @@ $.AdminBSB.input = {
         $parentSelector.find('.form-control').focusout(function () {
             var $this = $(this);
             if ($this.parents('.form-group').hasClass('form-float')) {
-                if ($this.val() == '') { $this.parents('.form-line').removeClass('focused'); }
+                if ($this.val() === '') { $this.parents('.form-line').removeClass('focused'); }
             }
             else {
                 $this.parents('.form-line').removeClass('focused');
@@ -290,7 +290,7 @@ $.AdminBSB.input = {
 
         //Not blank form
         $parentSelector.find('.form-control').each(function () {
-            if ($(this).val() !== '') {
+            if ($(this).val() !=== '') {
                 $(this).parents('.form-line').addClass('focused');
             }
         });
@@ -352,8 +352,8 @@ $.AdminBSB.dropdownMenu = {
         if (dropdown.length > 0) {
             var udEffectIn = dropdown.data('effect-in');
             var udEffectOut = dropdown.data('effect-out');
-            if (udEffectIn !== undefined) { effectIn = udEffectIn; }
-            if (udEffectOut !== undefined) { effectOut = udEffectOut; }
+            if (udEffectIn !=== undefined) { effectIn = udEffectIn; }
+            if (udEffectOut !=== undefined) { effectOut = udEffectOut; }
         }
 
         return {
@@ -379,7 +379,7 @@ $.AdminBSB.dropdownMenu = {
             data.dropdownMenu.removeClass(data.effectIn);
             data.dropdownMenu.removeClass(data.effectOut);
 
-            if (typeof callback == 'function') {
+            if (typeof callback === 'function') {
                 callback();
             }
         });
@@ -404,7 +404,7 @@ $.AdminBSB.browser = {
         var _this = this;
         var className = _this.getClassName();
 
-        if (className !== '') $('html').addClass(_this.getClassName());
+        if (className !=== '') $('html').addClass(_this.getClassName());
     },
     getBrowser: function () {
         var userAgent = navigator.userAgent.toLowerCase();
