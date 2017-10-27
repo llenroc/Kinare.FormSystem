@@ -8,10 +8,14 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Abp.EntityFramework;
 
 namespace Kinare.FormSystem.EntityFramework.Repositories.Forms
 {
-    public class GroupInformationRepository : IGroupInformationRepository
+    public class GroupInformationRepository : FormSystemRepositoryBase<GroupInformation, Guid>, IGroupInformationRepository
     {
+        protected GroupInformationRepository(IDbContextProvider<FormSystemDbContext> dbContextProvider) : base(dbContextProvider)
+        {
+        }
     }
 }

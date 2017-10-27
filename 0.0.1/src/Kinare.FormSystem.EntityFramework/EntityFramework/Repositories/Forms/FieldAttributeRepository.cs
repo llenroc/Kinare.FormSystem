@@ -9,10 +9,14 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Abp.EntityFramework;
 
 namespace Kinare.FormSystem.EntityFramework.Repositories.Forms
 {
-    public class FieldAttributeRepository : IFieldAttributeRepository
+    public class FieldAttributeRepository : FormSystemRepositoryBase<FieldAttribute, Guid>, IFieldAttributeRepository
     {
+        protected FieldAttributeRepository(IDbContextProvider<FormSystemDbContext> dbContextProvider) : base(dbContextProvider)
+        {
+        }
     }
 }

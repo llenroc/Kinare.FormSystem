@@ -9,10 +9,14 @@ using System.Data.Entity.ModelConfiguration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Abp.EntityFramework;
 
 namespace Kinare.FormSystem.EntityFramework.Repositories.FormRequests
 {
-    public class ParameterRequestRepository : IParameterRequestRepository
+    public class ParameterRequestRepository : FormSystemRepositoryBase<ParameterRequest, Guid>, IParameterRequestRepository
     {
+        protected ParameterRequestRepository(IDbContextProvider<FormSystemDbContext> dbContextProvider) : base(dbContextProvider)
+        {
+        }
     }
 }

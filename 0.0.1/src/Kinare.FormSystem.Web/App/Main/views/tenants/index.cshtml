@@ -1,4 +1,4 @@
-﻿<div class="row clearfix" ng-controller="app.views.tenants.index as vm">
+﻿<div class="row clearfix" ng-controller="app.views.tenants.index as ctrl">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="card main-content">
             <div class="header">
@@ -12,7 +12,7 @@
                             <i class="material-icons">more_vert</i>
                         </a>
                         <ul class="dropdown-menu pull-right">
-                            <li><a href="javascript:void(0);" class="waves-effect waves-block()" ng-click="vm.refresh();"><i class="material-icons">refresh</i>Refresh</a></li>
+                            <li><a href="javascript:void(0);" class="waves-effect waves-block()" ng-click="ctrl.refresh();"><i class="material-icons">refresh</i>Refresh</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -30,7 +30,7 @@
                     </tr>
                     </thead>
                     <tbody>
-                    <tr ng-repeat="tenant in vm.tenants">
+                    <tr ng-repeat="tenant in ctrl.tenants">
                         <td>{{tenant.tenancyName}}</td>
                         <td>{{tenant.name}}</td>
                         <td align="center">
@@ -42,15 +42,15 @@
                                 <i class="material-icons">menu</i>
                             </a>
                             <ul class="dropdown-menu pull-right">
-                                <li><a href="javascript:void(0);" class="waves-effect waves-block" ng-click="vm.openTenantEditModal(tenant)"><i class="material-icons">create</i>Edit</a></li>
-                                <li><a href="javascript:void(0);" class="waves-effect waves-block" ng-click="vm.delete(tenant)"><i class="material-icons">delete_sweep</i>Delete</a></li>
+                                <li><a href="javascript:void(0);" class="waves-effect waves-block" ng-click="ctrl.openTenantEditModal(tenant)"><i class="material-icons">create</i>Edit</a></li>
+                                <li><a href="javascript:void(0);" class="waves-effect waves-block" ng-click="ctrl.delete(tenant)"><i class="material-icons">delete_sweep</i>Delete</a></li>
                             </ul>
                         </td>
                     </tr>
                     </tbody>
                 </table>
 
-                <button type="button" data-toggle="modal" class="btn btn-primary btn-circle waves-effect waves-circle waves-float pull-right" ng-click="vm.openTenantCreationModal()">
+                <button type="button" data-toggle="modal" class="btn btn-primary btn-circle waves-effect waves-circle waves-float pull-right" ng-click="ctrl.openTenantCreationModal()">
                     <i class="material-icons">add</i>
                 </button>
             </div>

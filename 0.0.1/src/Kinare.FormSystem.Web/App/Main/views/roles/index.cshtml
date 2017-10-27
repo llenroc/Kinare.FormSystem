@@ -1,4 +1,4 @@
-﻿<div class="row clearfix" ng-controller="app.views.roles.index as vm">
+﻿<div class="row clearfix" ng-controller="app.views.roles.index as ctrl">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div class="card main-content">
             <div class="header">
@@ -12,7 +12,7 @@
                             <i class="material-icons">more_vert</i>
                         </a>
                         <ul class="dropdown-menu pull-right">
-                            <li><a href="javascript:void(0);" class="waves-effect <waves-block></waves-block>" ng-click="vm.refresh();"><i class="material-icons">refresh</i> Refresh</a></li>
+                            <li><a href="javascript:void(0);" class="waves-effect <waves-block></waves-block>" ng-click="ctrl.refresh();"><i class="material-icons">refresh</i> Refresh</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -28,7 +28,7 @@
                     </tr>
                     </thead>
                     <tbody>
-                    <tr ng-repeat="role in vm.roles">
+                    <tr ng-repeat="role in ctrl.roles">
                         <td>{{role.name}}</td>
                         <td>{{role.displayName}}</td>
                         <td class="dropdown">
@@ -36,15 +36,15 @@
                                 <i class="material-icons">menu</i>
                             </a>
                             <ul class="dropdown-menu pull-right">
-                                <li><a href="javascript:void(0);" class="waves-effect waves-block" ng-click="vm.openRoleEditModal(role)"><i class="material-icons">create</i>Edit</a></li>
-                                <li><a href="javascript:void(0);" class="waves-effect waves-block" ng-click="vm.delete(role)"><i class="material-icons">delete_sweep</i>Delete</a></li>
+                                <li><a href="javascript:void(0);" class="waves-effect waves-block" ng-click="ctrl.openRoleEditModal(role)"><i class="material-icons">create</i>Edit</a></li>
+                                <li><a href="javascript:void(0);" class="waves-effect waves-block" ng-click="ctrl.delete(role)"><i class="material-icons">delete_sweep</i>Delete</a></li>
                             </ul>
                         </td>
                     </tr>
                     </tbody>
                 </table>
 
-                <button type="button" data-toggle="modal" class="btn btn-primary btn-circle waves-effect waves-circle waves-float pull-right" ng-click="vm.openRoleCreationModal()">
+                <button type="button" data-toggle="modal" class="btn btn-primary btn-circle waves-effect waves-circle waves-float pull-right" ng-click="ctrl.openRoleCreationModal()">
                     <i class="material-icons">add</i>
                 </button>
             </div>

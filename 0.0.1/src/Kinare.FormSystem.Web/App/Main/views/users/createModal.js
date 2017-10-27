@@ -2,26 +2,26 @@
     angular.module('app').controller('app.views.users.createModal', [
         '$scope', '$uibModalInstance', 'abp.services.app.user',
         function ($scope, $uibModalInstance, userService) {
-            var vm = this;
+            var ctrl = this;
 
-            vm.user = {
+            ctrl.user = {
                 isActive: true
             };
 
-            vm.roles = [];
+            ctrl.roles = [];
 
             function getRoles() {
                 userService.getRoles()
                     .then(function (result) {
-                        vm.roles = result.data.items;
+                        ctrl.roles = result.data.items;
                     });
             }
 
-            vm.save = function () {
+            ctrl.save = function () {
                 var assingnedRoles = [];
 
-                for (var i = 0; i < vm.roles.length; i++) {
-                    var role = vm.roles[i];
+                for (var i = 0; i < ctrl.roles.length; i++) {
+                    var role = ctrl.roles[i];
                     if (!role.isAssigned) {
                         continue;
                     }
@@ -29,15 +29,15 @@
                     assingnedRoles.push(role.name);
                 }
 
-                vm.user.roleNames = assingnedRoles;
-                userService.create(vm.user)
+                ctrl.user.roleNames = assingnedRoles;
+                userService.create(ctrl.user)
                     .then(function () {
                         abp.notify.info(App.localize('SavedSuccessfully'));
                         $uibModalInstance.close();
                     });
             };
 
-            vm.cancel = function () {
+            ctrl.cancel = function () {
                 $uibModalInstance.dismiss({});
             };
 

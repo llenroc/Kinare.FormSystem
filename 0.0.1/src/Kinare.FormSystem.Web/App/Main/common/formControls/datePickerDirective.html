@@ -1,0 +1,27 @@
+﻿<div class="form-group" ng-class="{'has-warning': !required, 'has-success': (required && parentForm[ctrl.controlId].$valid)||(!required && parentForm[ctrl.controlId].$dirty), 'has-error': required && parentForm[ctrl.controlId].$invalid}">
+    <label class="{{ctrl.app.boardSize.col4}} control-label" for="{{ctrl.controlId}}">{{entityHeader}} :</label>
+    <div class="{{ctrl.app.boardSize.col8}}">
+        <span ng-class="{'required':required}"></span>
+        <div class="input-group">
+            <input type="text"
+                   class="form-control"
+                   uib-datepicker-popup="{{ctrl.format}}"
+                   ng-model="entity"
+                   is-open="ctrl.opened"
+                   datepicker-options="ctrl.dateOptions"
+                   ng-required="required"
+                   close-text="Cerrar"
+                   clear-text="Limpiar"
+                   current-text="Hoy"
+                   id="{{ctrl.controlId}}"
+                   name="{{ctrl.controlId}}" />
+
+            <span class="input-group-btn">
+                <button type="button" class="btn btn-default" ng-click="ctrl.open()"><i class="glyphicon glyphicon-calendar"></i></button>
+            </span>
+        </div>
+        <div class="text-left help-message">
+            <span class="help-block" ng-show="parentForm[ctrl.controlId].$invalid">{{helpText}}</span>
+        </div>
+    </div>
+</div>

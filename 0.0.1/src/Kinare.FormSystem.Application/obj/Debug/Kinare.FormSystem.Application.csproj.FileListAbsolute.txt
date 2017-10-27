@@ -2,8 +2,6 @@ D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Applica
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\Kinare.FormSystem.Application.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\Kinare.FormSystem.Application.pdb
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
-D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\System.Security.Cryptography.Algorithms.dll
-D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\System.ValueTuple.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\Microsoft.Win32.Primitives.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\netstandard.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\System.AppContext.dll
@@ -75,6 +73,7 @@ D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Applica
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\System.Runtime.Serialization.Primitives.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\System.Runtime.Serialization.Xml.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\System.Security.Claims.dll
+D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\System.Security.Cryptography.Algorithms.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\System.Security.Cryptography.Csp.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\System.Security.Cryptography.Encoding.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\System.Security.Cryptography.Primitives.dll
@@ -91,6 +90,7 @@ D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Applica
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\System.Threading.Thread.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\System.Threading.ThreadPool.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\System.Threading.Timer.dll
+D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\System.ValueTuple.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\System.Xml.ReaderWriter.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\System.Xml.XDocument.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\System.Xml.XmlDocument.dll
@@ -105,6 +105,7 @@ D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Applica
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\Castle.Core.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\Castle.Facilities.Logging.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\Castle.Windsor.dll
+D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\ExpresionFilter.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\JetBrains.Annotations.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\Kinare.FormSystem.Core.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\Microsoft.AspNet.Identity.Core.dll
@@ -133,6 +134,7 @@ D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Applica
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\System.Xml.XPath.XmlDocument.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\Kinare.FormSystem.Core.pdb
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\Kinare.FormSystem.Core.dll.config
+D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\ExpresionFilter.pdb
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\Abp.pdb
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\Abp.xml
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Application\bin\Debug\Abp.AutoMapper.pdb

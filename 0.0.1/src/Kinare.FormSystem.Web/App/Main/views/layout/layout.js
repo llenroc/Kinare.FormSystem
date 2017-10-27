@@ -2,24 +2,24 @@
     var controllerId = 'app.views.layout';
     angular.module('app').controller(controllerId, [
         '$scope', '$timeout', function ($scope, $timeout) {
-            var vm = this;
+            var ctrl = this;
             //Layout logic...
 
 
-            vm.activateLeftSideBar = function () {
+            ctrl.activateLeftSideBar = function () {
                 $timeout(function () {
                     $.AdminBSB.leftSideBar.activate();
                 }, 2000);
             };
 
-            vm.activateRightSideBar = function () {
+            ctrl.activateRightSideBar = function () {
                 $timeout(function () {
                     $.AdminBSB.rightSideBar.activate();
                 }, 2000);
             };
 
 
-            vm.activateTopBar = function () {
+            ctrl.activateTopBar = function () {
                 $.AdminBSB.search.activate();
                 $.AdminBSB.navbar.activate();
             };

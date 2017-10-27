@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DFA48E27-7D53-4955-A722-3D91A7119BE7}"
 	ProjectSection(SolutionItems) = preProject
@@ -27,6 +27,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{7408541C-F99C-4197-B203-136115BD1CB9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinare.FormSystem.Migrator", "Tools\Kinare.FormSystem.Migrator\Kinare.FormSystem.Migrator.csproj", "{6F98C2F2-898A-421B-BE3D-68FE69EC0646}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utils", "Utils", "{CD24A0D5-CFF3-4AEC-AD7E-24B3BB27686E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinareApp.NetFramework", "G:\GrupoMacro\Inquest\ExpresionFilter\KinareApp.NetFramework.csproj", "{D1600722-80F3-489A-8684-AE40551EE53C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,6 +66,10 @@ Global
 		{6F98C2F2-898A-421B-BE3D-68FE69EC0646}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F98C2F2-898A-421B-BE3D-68FE69EC0646}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F98C2F2-898A-421B-BE3D-68FE69EC0646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1600722-80F3-489A-8684-AE40551EE53C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1600722-80F3-489A-8684-AE40551EE53C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1600722-80F3-489A-8684-AE40551EE53C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1600722-80F3-489A-8684-AE40551EE53C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +77,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C602C47E-F379-40A3-A146-4F19105B3491} = {7E85C7E5-70BD-4C9D-B052-D95955F46609}
 		{6F98C2F2-898A-421B-BE3D-68FE69EC0646} = {7408541C-F99C-4197-B203-136115BD1CB9}
+		{D1600722-80F3-489A-8684-AE40551EE53C} = {CD24A0D5-CFF3-4AEC-AD7E-24B3BB27686E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0ADD103-D356-4E79-9F92-29C2CF3BADC0}
 	EndGlobalSection
 EndGlobal
-

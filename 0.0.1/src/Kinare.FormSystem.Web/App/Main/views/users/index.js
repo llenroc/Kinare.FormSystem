@@ -2,17 +2,17 @@
     angular.module('app').controller('app.views.users.index', [
         '$scope', '$timeout', '$uibModal', 'abp.services.app.user',
         function ($scope, $timeout, $uibModal, userService) {
-            var vm = this;
+            var ctrl = this;
 
-            vm.users = [];
+            ctrl.users = [];
 
             function getUsers() {
                 userService.getAll({}).then(function (result) {
-                    vm.users = result.data.items;
+                    ctrl.users = result.data.items;
                 });
             }
 
-            vm.openUserCreationModal = function () {
+            ctrl.openUserCreationModal = function () {
                 var modalInstance = $uibModal.open({
                     templateUrl: '/App/Main/views/users/createModal.cshtml',
                     controller: 'app.views.users.createModal as vm',
@@ -28,7 +28,7 @@
                 });
             };
 
-            vm.openUserEditModal = function (user) {
+            ctrl.openUserEditModal = function (user) {
                 var modalInstance = $uibModal.open({
                     templateUrl: '/App/Main/views/users/editModal.cshtml',
                     controller: 'app.views.users.editModal as vm',
@@ -51,7 +51,7 @@
                 });
             };
 
-            vm.delete = function (user) {
+            ctrl.delete = function (user) {
                 abp.message.confirm(
                     "Delete user '" + user.userName + "'?",
                     function (result) {
@@ -65,7 +65,7 @@
                     });
             }
 
-            vm.refresh = function () {
+            ctrl.refresh = function () {
                 getUsers();
             };
 

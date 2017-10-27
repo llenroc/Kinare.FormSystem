@@ -6,10 +6,14 @@ using System.Data.Entity.ModelConfiguration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Abp.EntityFramework;
 
 namespace Kinare.FormSystem.EntityFramework.Repositories.Forms
 {
-    public class FieldValueRepository : IFieldValueRepository
+    public class FieldValueRepository : FormSystemRepositoryBase<FieldValue, Guid>, IFieldValueRepository
     {
+        protected FieldValueRepository(IDbContextProvider<FormSystemDbContext> dbContextProvider) : base(dbContextProvider)
+        {
+        }
     }
 }

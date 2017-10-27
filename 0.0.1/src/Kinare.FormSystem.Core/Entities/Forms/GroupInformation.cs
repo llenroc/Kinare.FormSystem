@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace Kinare.FormSystem.Forms
 {
     [Table("GroupInformation")]
-    public class GroupInformation : AuditedEntity<Guid>
+    public class GroupInformation : FullAuditedEntity<Guid>
     {
         public Guid ApplicationFormId { get; set; }
 

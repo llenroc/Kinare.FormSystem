@@ -1,0 +1,52 @@
+﻿<div>
+    <md-table-container>
+        <table md-table md-row-select="ctrl.options.rowSelection" ng-model="ngModel.entitySelected">
+            <thead md-head md-order="orderBy">
+                <tr md-row class="md-row-header">
+                    <th md-column md-order-by="{{column.orderBy}}"
+                        ng-repeat="column in tableDescription.columnList">
+                        <span>{{column.header}}</span>
+                    </th>
+                </tr>
+            </thead>
+            <tbody md-body ng-show="ngModel.data.length > 0">
+                <tr md-row
+                    md-select="entity"
+                    md-select-id="id"
+                    md-auto-select="ctrl.options.autoSelect"
+                    ng-repeat="entity in ngModel.data | orderBy: orderBy | limitTo: ctrl.pagination.limit: (ctrl.pagination.page - 1) * ctrl.pagination.limit track by $index">
+
+                    <td md-cell ng-repeat="column in tableDescription.columnList">
+                        <div ng-switch on="column.propertyType">
+                            <span ng-switch-when="bool">
+                                <i ng-class="{'fa fa-check': ctrl.getProperty(entity,column.propertyPath) == 1,'fa fa-minus': ctrl.getProperty(entity,column.propertyPath) == 0}"></i>
+                            </span>
+                            <span ng-switch-when="!bool">
+                                <i ng-class="{'fa fa-check': ctrl.getProperty(entity,column.propertyPath) == 0,'fa fa-minus': ctrl.getProperty(entity,column.propertyPath) == 1}"></i>
+                            </span>
+                            <span ng-switch-default>{{ctrl.getProperty(entity,column.propertyPath)}}</span>
+                        </div>
+                    </td>
+
+                </tr>
+            </tbody>
+            <tbody md-body ng-show="ngModel.data.length === 0">
+                <tr md-row>
+                    <td md-cell>
+                        <span>NO EXISTEN DATOS</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </md-table-container>
+
+    <md-table-pagination ng-if="ngModel.data.length > ctrl.pagination.limit"
+                         md-label="{page: 'Página:', rowsPerPage: 'Filas por página:', of: 'de'}"
+                         md-limit-options="ctrl.limitOptions"
+                         md-limit="ctrl.pagination.limit"
+                         md-page="ctrl.pagination.page"
+                         md-page-select="1"
+                         md-total="{{ngModel.data.length}}">
+    </md-table-pagination>
+
+</div>

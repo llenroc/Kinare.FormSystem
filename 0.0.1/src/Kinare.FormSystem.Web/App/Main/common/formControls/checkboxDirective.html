@@ -1,0 +1,7 @@
+﻿<div class="form-group has-success">
+    <label class="{{ctrl.app.boardSize.col4}} control-label" for="{{ctrl.controlId}}">{{entityHeader}} :</label>
+    <div class="{{ctrl.app.boardSize.col8}}">
+        <span ng-class="{'required':required}"></span>
+        <input type="checkbox" class="form-control checkBox" id="{{ctrl.controlId}}" name="{{ctrl.controlId}}" ng-model="ctrl.entityCheckBox" ng-disabled="disable" ng-click="ctrl.changeCheckBox()"/>
+    </div>
+</div>

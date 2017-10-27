@@ -1,5 +1,5 @@
 ﻿<!-- Search Bar -->
-<div class="search-bar" ng-controller="app.views.layout.topbar as vm">
+<div class="search-bar" ng-controller="app.views.layout.topbar as ctrl">
     <div class="search-icon">
         <i class="material-icons">search</i>
     </div>
@@ -9,7 +9,7 @@
     </div>
 </div> <!-- #END# Search Bar -->
 
-<nav class="navbar" ng-controller="app.views.layout.topbar as vm">
+<nav class="navbar" ng-controller="app.views.layout.topbar as ctrl">
     <div class="container-fluid">
         <div class="navbar-header">
             <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"></a>
@@ -21,13 +21,13 @@
                 <li><a href="javascript:void(0);" class="js-search" data-close="true"><i class="material-icons">search</i></a></li>
                 <li class="dropdown">
                     <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button">
-                        <i class="{{vm.currentLanguage.icon}}" title="{{vm.currentLanguage.displayName}}"></i>
-                        {{vm.currentLanguage.displayName}}
+                        <i class="{{ctrl.currentLanguage.icon}}" title="{{ctrl.currentLanguage.displayName}}"></i>
+                        {{ctrl.currentLanguage.displayName}}
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li ng-repeat="language in vm.languages">
-                            <a ng-if="language.name != currentLanguage.name" href="#" ng-click="vm.changeLanguage(language.name)"><i class="{{language.icon}}"></i> {{language.displayName}}</a>
+                        <li ng-repeat="language in ctrl.languages">
+                            <a ng-if="language.name != currentLanguage.name" href="#" ng-click="ctrl.changeLanguage(language.name)"><i class="{{language.icon}}"></i> {{language.displayName}}</a>
                         </li>
                     </ul>
                 </li>

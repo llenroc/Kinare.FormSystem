@@ -1,4 +1,4 @@
-﻿@*<aside id="rightsidebar" class="right-sidebar" ng-controller="app.views.layout.rightSidebar as vm">
+﻿@*<aside id="rightsidebar" class="right-sidebar" ng-controller="app.views.layout.rightSidebar as ctrl">
     <ul class="nav nav-tabs tab-nav-right" role="tablist">
         <li role="presentation" class="active"><a href="#skins" data-toggle="tab">SKINS</a></li>
         <li role="presentation"><a href="#settings" data-toggle="tab">SETTINGS</a></li>
@@ -6,7 +6,7 @@
     <div class="tab-content">
         <div role="tabpanel" class="tab-pane fade in active in active" id="skins">
             <ul class="demo-choose-skin">
-                <li ng-repeat="theme in vm.themes" ng-class="{'active': vm.selectedThemeCssClass == theme.cssClass}" ng-click="vm.setTheme(theme)">
+                <li ng-repeat="theme in ctrl.themes" ng-class="{'active': ctrl.selectedThemeCssClass == theme.cssClass}" ng-click="ctrl.setTheme(theme)">
                     <div class="{{theme.cssClass}}"></div>
                     <span>{{theme.name}}</span>
                 </li>
@@ -65,11 +65,11 @@
 </aside>*@
 
 
-<aside id="rightsidebar" class="right-sidebar" ng-controller="app.views.layout.rightSidebar as vm">
+<aside id="rightsidebar" class="right-sidebar" ng-controller="app.views.layout.rightSidebar as ctrl">
     <uib-tabset class="tab-container tabbable-line">
         <uib-tab heading="SKINS">
             <ul class="demo-choose-skin">
-                <li ng-repeat="theme in vm.themes" ng-class="{'active': vm.selectedThemeCssClass == theme.cssClass}" ng-click="vm.setTheme(theme)">
+                <li ng-repeat="theme in ctrl.themes" ng-class="{'active': ctrl.selectedThemeCssClass == theme.cssClass}" ng-click="ctrl.setTheme(theme)">
                     <div class="{{theme.cssClass}}"></div>
                     <span>{{theme.name}}</span>
                 </li>

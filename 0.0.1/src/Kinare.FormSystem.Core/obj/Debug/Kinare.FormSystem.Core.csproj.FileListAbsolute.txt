@@ -2,8 +2,6 @@ D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\bi
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\bin\Debug\Kinare.FormSystem.Core.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\bin\Debug\Kinare.FormSystem.Core.pdb
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
-D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\bin\Debug\System.Security.Cryptography.Algorithms.dll
-D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\bin\Debug\System.ValueTuple.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\bin\Debug\Microsoft.Win32.Primitives.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\bin\Debug\netstandard.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\bin\Debug\System.AppContext.dll
@@ -75,6 +73,7 @@ D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\bi
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\bin\Debug\System.Runtime.Serialization.Primitives.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\bin\Debug\System.Runtime.Serialization.Xml.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\bin\Debug\System.Security.Claims.dll
+D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\bin\Debug\System.Security.Cryptography.Algorithms.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\bin\Debug\System.Security.Cryptography.Csp.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\bin\Debug\System.Security.Cryptography.Encoding.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\bin\Debug\System.Security.Cryptography.Primitives.dll
@@ -91,6 +90,7 @@ D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\bi
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\bin\Debug\System.Threading.Thread.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\bin\Debug\System.Threading.ThreadPool.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\bin\Debug\System.Threading.Timer.dll
+D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\bin\Debug\System.ValueTuple.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\bin\Debug\System.Xml.ReaderWriter.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\bin\Debug\System.Xml.XDocument.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\bin\Debug\System.Xml.XmlDocument.dll
@@ -160,6 +160,7 @@ D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\bi
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\bin\Debug\System.Linq.Dynamic.Core.pdb
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\bin\Debug\System.Linq.Dynamic.Core.xml
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\obj\Debug\Kinare.FormSystem.Core.csprojResolveAssemblyReference.cache
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\obj\Debug\Kinare.FormSystem.Core.csproj.CoreCompileInputs.cache
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\obj\Debug\Kinare.FormSystem.Core.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.Core\obj\Debug\Kinare.FormSystem.Core.pdb

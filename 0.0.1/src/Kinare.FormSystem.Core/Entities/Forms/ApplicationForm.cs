@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 namespace Kinare.FormSystem.Forms
 {
     [Table("ApplicationForm")]
-    public class ApplicationForm : AuditedEntity<Guid>
+    public class ApplicationForm : FullAuditedEntity<Guid>
     {
         [Required]
         [StringLength(100)]

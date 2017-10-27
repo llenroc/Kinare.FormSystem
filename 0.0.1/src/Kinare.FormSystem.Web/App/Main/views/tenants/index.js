@@ -2,17 +2,17 @@
     angular.module('app').controller('app.views.tenants.index', [
         '$scope', '$uibModal', 'abp.services.app.tenant',
         function ($scope, $uibModal, tenantService) {
-            var vm = this;
+            var ctrl = this;
 
-            vm.tenants = [];
+            ctrl.tenants = [];
 
             function getTenants() {
                 tenantService.getAll({}).then(function (result) {
-                    vm.tenants = result.data.items;
+                    ctrl.tenants = result.data.items;
                 });
             }
 
-            vm.openTenantCreationModal = function () {
+            ctrl.openTenantCreationModal = function () {
                 var modalInstance = $uibModal.open({
                     templateUrl: '/App/Main/views/tenants/createModal.cshtml',
                     controller: 'app.views.tenants.createModal as vm',
@@ -28,7 +28,7 @@
                 });
             };
 
-            vm.openTenantEditModal = function (tenant) {
+            ctrl.openTenantEditModal = function (tenant) {
                 var modalInstance = $uibModal.open({
                     templateUrl: '/App/Main/views/tenants/editModal.cshtml',
                     controller: 'app.views.tenants.editModal as vm',
@@ -49,7 +49,7 @@
                 });
             }
 
-            vm.delete = function (tenant) {
+            ctrl.delete = function (tenant) {
                 abp.message.confirm(
                     "Delete tenant '" + tenant.name + "'?",
                     function (result) {
@@ -63,7 +63,7 @@
                     });
             }
 
-            vm.refresh = function() {
+            ctrl.refresh = function() {
                 getTenants();
             };
 

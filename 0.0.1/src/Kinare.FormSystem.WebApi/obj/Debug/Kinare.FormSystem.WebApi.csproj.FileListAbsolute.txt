@@ -2,8 +2,6 @@ D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.WebApi\
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.WebApi\bin\Debug\Kinare.FormSystem.WebApi.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.WebApi\bin\Debug\Kinare.FormSystem.WebApi.pdb
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.WebApi\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
-D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.WebApi\bin\Debug\System.Security.Cryptography.Algorithms.dll
-D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.WebApi\bin\Debug\System.ValueTuple.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.WebApi\bin\Debug\Microsoft.Win32.Primitives.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.WebApi\bin\Debug\netstandard.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.WebApi\bin\Debug\System.AppContext.dll
@@ -75,6 +73,7 @@ D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.WebApi\
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.WebApi\bin\Debug\System.Runtime.Serialization.Primitives.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.WebApi\bin\Debug\System.Runtime.Serialization.Xml.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.WebApi\bin\Debug\System.Security.Claims.dll
+D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.WebApi\bin\Debug\System.Security.Cryptography.Algorithms.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.WebApi\bin\Debug\System.Security.Cryptography.Csp.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.WebApi\bin\Debug\System.Security.Cryptography.Encoding.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.WebApi\bin\Debug\System.Security.Cryptography.Primitives.dll
@@ -91,6 +90,7 @@ D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.WebApi\
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.WebApi\bin\Debug\System.Threading.Thread.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.WebApi\bin\Debug\System.Threading.ThreadPool.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.WebApi\bin\Debug\System.Threading.Timer.dll
+D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.WebApi\bin\Debug\System.ValueTuple.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.WebApi\bin\Debug\System.Xml.ReaderWriter.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.WebApi\bin\Debug\System.Xml.XDocument.dll
 D:\Daniel\Proyectos\GitHub\Kinare.FormSystem\0.0.1\src\Kinare.FormSystem.WebApi\bin\Debug\System.Xml.XmlDocument.dll

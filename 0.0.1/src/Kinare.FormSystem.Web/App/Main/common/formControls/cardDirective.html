@@ -1,0 +1,34 @@
+﻿<div class="row parentHeight">
+    <div class="{{ctrl.app.boardSize.col4}} parentHeight text-center">
+        <img class="img-thumbnail parentHeight" ng-src="{{ngModel[imageThumbnail]}}" />
+    </div>
+    <div class="{{ctrl.app.boardSize.col8}} parentHeight">
+        <div class="panel panel-primary parentHeight">
+            <div class="panel-body parentHeight" style="padding: 5px 2px;">
+                <div class="col-xs-12 col-sm-12 col-md-12 parentHeight">
+                    <fieldset class="parentHeight" style="overflow: hidden;">
+                        <div class="form-group" ng-repeat="attribute in entityDescriptionList" style="margin-bottom:0px;">
+                            <strong class="{{ctrl.app.boardSize.col4}}" style="left:15px;">{{attribute.header}} :</strong>
+                            <span class="{{ctrl.app.boardSize.col8}} text-left" ng-bind-html="ctrl.app.getProperty(ngModel, attribute)">
+                            </span>
+                        </div>
+                    </fieldset>
+                    <div class="text-center" style="bottom: 55px;position: relative;">
+                        <button type="button"
+                                class="btn btn-secondary"
+                                ng-click="ctrl.back()">
+                            <i class="fa fa-angle-double-left"></i>
+                            <span>Atras</span>
+                        </button>
+                        <button type="button"
+                                class="btn btn-primary"
+                                ng-click="ctrl.selectItem()">
+                            <span>{{ngModel.isSelected ? 'Quitar' : 'Seleccionar'}}</span>
+                            <i class="fa" ng-class="{'fa-remove' : ngModel.isSelected, 'fa-check' : !ngModel.isSelected,}"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

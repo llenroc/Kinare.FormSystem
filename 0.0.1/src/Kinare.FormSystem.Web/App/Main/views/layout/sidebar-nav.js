@@ -3,9 +3,9 @@
     angular.module('app').controller(controllerId, [
         '$rootScope', '$state', 'appSession',
         function ($rootScope, $state, appSession) {
-            var vm = this;
+            var ctrl = this;
 
-            vm.menuItems = [
+            ctrl.menuItems = [
                 createMenuItem(App.localize("HomePage"), "", "home", "home"),
 
                 createMenuItem(App.localize("Tenants"), "Pages.Tenants", "business", "tenants"),
@@ -31,7 +31,7 @@
                 ])
             ];
 
-            vm.showMenuItem = function (menuItem) {
+            ctrl.showMenuItem = function (menuItem) {
                 if (menuItem.permissionName) {
                     return abp.auth.isGranted(menuItem.permissionName);
                 }

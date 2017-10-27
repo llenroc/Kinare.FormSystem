@@ -1,6 +1,10 @@
-﻿namespace Kinare.FormSystem.Repositories.FormRequests
+﻿using Abp.Domain.Repositories;
+using Kinare.FormSystem.FormRequests;
+using System;
+
+namespace Kinare.FormSystem.Repositories.FormRequests
 {
-    public interface IBrowserInformationRepository
+    public interface IBrowserInformationRepository : IRepository<BrowserInformation, Guid>
     {
     }
 }

@@ -1,0 +1,20 @@
+﻿<div class="form-group" ng-class="{'has-warning': !required, 'has-success': (required && parentForm[ctrl.controlId].$valid)||(!required && parentForm[ctrl.controlId].$dirty), 'has-error': required && parentForm[ctrl.controlId].$invalid}">
+    <label class="{{ctrl.app.boardSize.col4}} control-label" for="{{ctrl.controlId}}">{{entityHeader}} :</label>
+    <div class="{{ctrl.app.boardSize.col8}}">
+        <span ng-class="{'required':required}"></span>
+        <md-input-container flex="50">
+            <md-select name="{{ctrl.controlId}}" ng-model="ngModel" ng-change="ctrl.onSelectItem()" placeholder="{{placeholder}}" required>
+                <md-select-header>
+                    <strong>{{entityHeader}}</strong>
+                </md-select-header>
+                <md-option ng-repeat="item in list" ng-value="item">
+                    <span class="{{ctrl.app.boardSize.col8}}">{{item[propertyName]}}</span>
+                    <small class="{{ctrl.app.boardSize.col8}}" ng-if="secondProperty" style="font-size: x-small;">{{item[secondProperty]}}</small>
+                </md-option>
+            </md-select>
+            <div role="alert" ng-messages="parentForm[ctrl.controlId].$error" ng-if="parentForm[ctrl.controlId].$invalid && helpText != ''">
+                <div ng-message="required">{{helpText}}</div>
+            </div>
+        </md-input-container>
+    </div>
+</div>

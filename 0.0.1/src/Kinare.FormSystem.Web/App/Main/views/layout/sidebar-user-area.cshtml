@@ -1,10 +1,10 @@
-﻿<div class="user-info" ng-controller="app.views.layout.sidebarUserArea as vm">
+﻿<div class="user-info" ng-controller="app.views.layout.sidebarUserArea as ctrl">
     <div class="image">
         <img src="/images/user.png" width="48" height="48" alt="User" />
     </div>
     <div class="info-container">
-        <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{vm.getShownUserName()}}</div>
-        <div class="email">{{vm.userEmailAddress}}</div>
+        <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ctrl.getShownUserName()}}</div>
+        <div class="email">{{ctrl.userEmailAddress}}</div>
         <div class="btn-group user-helper-dropdown">
             <i class="material-icons" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">keyboard_arrow_down</i>
             <ul class="dropdown-menu pull-right">

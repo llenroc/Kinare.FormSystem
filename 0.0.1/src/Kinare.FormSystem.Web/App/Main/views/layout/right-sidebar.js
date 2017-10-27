@@ -3,10 +3,10 @@
     angular.module('app').controller(controllerId, [
         '$rootScope', '$timeout', '$state', 'appSession', 'abp.services.app.configuration',
         function ($rootScope, $timeout, $state, appSession, configurationService) {
-            var vm = this;
+            var ctrl = this;
 
-            vm.selectedThemeCssClass = "red";
-            vm.themes = [
+            ctrl.selectedThemeCssClass = "red";
+            ctrl.themes = [
                 createUiThemeInfo("Red", "red"),
                 createUiThemeInfo("Pink", "pink"),
                 createUiThemeInfo("Purple", "purple"),
@@ -37,8 +37,8 @@
             }
 
             function init() {
-                vm.selectedThemeCssClass = abp.setting.get('App.UiTheme');
-                $('body').addClass('theme-' + vm.selectedThemeCssClass);
+                ctrl.selectedThemeCssClass = abp.setting.get('App.UiTheme');
+                $('body').addClass('theme-' + ctrl.selectedThemeCssClass);
 
                 //Fix for uib-tab does not have id propert, but BSB admin requires it
                 $timeout(function () {
@@ -46,16 +46,16 @@
                 }, 0);
             }
 
-            vm.setTheme = function (theme) {
+            ctrl.setTheme = function (theme) {
 
                 configurationService.changeUiTheme({ theme: theme.cssClass }).then(function () {
                     var $body = $('body');
                     $('.right-sidebar .demo-choose-skin li').removeClass('active');
-                    $body.removeClass('theme-' + vm.selectedThemeCssClass);
+                    $body.removeClass('theme-' + ctrl.selectedThemeCssClass);
                     $('.right-sidebar .demo-choose-skin li div.' + theme.cssClass).closest('li').addClass('active');
                     $body.addClass('theme-' + theme.cssClass);
 
-                    vm.selectedThemeCssClass = theme.cssClass;
+                    ctrl.selectedThemeCssClass = theme.cssClass;
                 });
             }
 

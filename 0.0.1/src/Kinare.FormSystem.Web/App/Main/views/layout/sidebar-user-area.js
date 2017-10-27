@@ -3,10 +3,10 @@
     angular.module('app').controller(controllerId, [
         '$rootScope', '$state', 'appSession',
         function ($rootScope, $state, appSession) {
-            var vm = this;
+            var ctrl = this;
             
-            vm.userEmailAddress = appSession.user.emailAddress;
-            vm.getShownUserName = function () {
+            ctrl.userEmailAddress = appSession.user.emailAddress;
+            ctrl.getShownUserName = function () {
                 if (!abp.multiTenancy.isEnabled) {
                     return appSession.user.userName;
                 } else {

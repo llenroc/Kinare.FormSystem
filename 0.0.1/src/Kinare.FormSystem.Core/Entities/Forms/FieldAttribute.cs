@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 namespace Kinare.FormSystem.Forms
 {
     [Table("FieldAttribute")]
-    public class FieldAttribute : AuditedEntity<Guid>
+    public class FieldAttribute : FullAuditedEntity<Guid>
     {
         public Guid GroupInformationId { get; set; }
 

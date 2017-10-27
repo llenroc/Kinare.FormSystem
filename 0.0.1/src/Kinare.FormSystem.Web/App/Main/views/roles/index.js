@@ -2,17 +2,17 @@
     angular.module('app').controller('app.views.roles.index', [
         '$scope', '$uibModal', 'abp.services.app.role',
         function ($scope, $uibModal, roleService) {
-            var vm = this;
+            var ctrl = this;
 
-            vm.roles = [];
+            ctrl.roles = [];
 
             function getRoles() {
                 roleService.getAll({}).then(function (result) {
-                    vm.roles = result.data.items;
+                    ctrl.roles = result.data.items;
                 });
             }
 
-            vm.openRoleCreationModal = function () {
+            ctrl.openRoleCreationModal = function () {
                 var modalInstance = $uibModal.open({
                     templateUrl: '/App/Main/views/roles/createModal.cshtml',
                     controller: 'app.views.roles.createModal as vm',
@@ -28,7 +28,7 @@
                 });
             };
 
-            vm.openRoleEditModal = function (role) {
+            ctrl.openRoleEditModal = function (role) {
                 var modalInstance = $uibModal.open({
                     templateUrl: '/App/Main/views/roles/editModal.cshtml',
                     controller: 'app.views.roles.editModal as vm',
@@ -49,7 +49,7 @@
                 });
             };
 
-            vm.delete = function (role) {
+            ctrl.delete = function (role) {
                 abp.message.confirm(
                     "Delete role '" + role.name + "'?",
                     function (result) {
@@ -63,7 +63,7 @@
                     });
             }
 
-            vm.refresh = function () {
+            ctrl.refresh = function () {
                 getRoles();
             };
 
